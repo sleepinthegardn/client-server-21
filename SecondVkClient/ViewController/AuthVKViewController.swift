@@ -16,8 +16,6 @@ class AuthVKViewController: UIViewController {
         super.viewDidLoad()
         webView.navigationDelegate = self
         loadAuthVK()
-        
-        
     }
     
     @IBOutlet weak var webView: WKWebView!//{
